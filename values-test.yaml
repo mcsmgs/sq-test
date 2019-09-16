@@ -94,7 +94,7 @@ extraEnv: {}
   # sonar.web.context: /sonarqube
 
 # Set annotations for pods
-annotations: {}
+annotations:
   sidecar.istio.io/inject: "false"
 
 resources: {}
